@@ -1,4 +1,4 @@
-# Automated-iMessage
+# iMessage Automation
 This program allows the user to send automated iMessages to contacts, and it can be customized to send a message at determined intervals and/or send a mass number of messages that make up a text (like sending every line of Finding Nemo or your favorite song).
 
 # Send Daily Messages
