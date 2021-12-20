@@ -6,7 +6,7 @@ In order to send a message at pre-determined intervals, fill out the Text_to_sen
 
 For example, this format is good for sending a single joke per day that is selected from a text consisting of hundreds of jokes. However, the program can be customized to not edit the text file, in which case the user can send the same text every day.
 
-# Send Many Messages at Once
+# Send Multiple Messages at Once
 Alternatively, the user can spam someone's phone by sending individual messages that make up every line of a larger text. 
 
 For example, every line of your favorite movie can be sent to a friend, and the program will send every line back to back rapidly. This can result in thousands of messages being sent in a very short period of time.
