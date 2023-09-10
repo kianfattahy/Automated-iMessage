@@ -1,7 +1,7 @@
 # iMessage Automation Tool
 
 ## Overview
-The iMessage Automation Tool is designed to facilitate the automatic sending of iMessages from your device. Whether you want to send a daily joke to a friend, remind someone of a task at fixed intervals, or even flood their iMessages with lines from their favorite movie, this tool has you covered.
+This iMessage Automation Tool is designed to facilitate the automatic sending of iMessages from your device. Whether you want to send a daily joke to a friend, remind someone of a task at fixed intervals, or even flood their iMessages with lines from their favorite movie, this tool has you covered.
 
 ## Features
 
