@@ -1,12 +1,28 @@
-# iMessage Automation
-This program allows the user to send automated iMessages to contacts, and it can be customized to send a message at determined intervals and/or send a mass number of messages that make up a text (like sending every line of Finding Nemo or your favorite song).
+# iMessage Automation Tool
 
-# Send Daily Messages
-In order to send a message at pre-determined intervals, fill out the Text_to_send.txt file with your desired message. Then, simply setup a crontab file to execute messenger.py at the same time each day. As it stands, the program will delete the top line of a file every time it sends a message from it. 
+## Overview
+The iMessage Automation Tool is designed to facilitate the automatic sending of iMessages from your device. Whether you want to send a daily joke to a friend, remind someone of a task at fixed intervals, or even flood their iMessages with lines from their favorite movie, this tool has you covered.
 
-For example, this format is good for sending a single joke per day that is selected from a text consisting of hundreds of jokes. However, the program can be customized to not edit the text file, in which case the user can send the same text every day.
+## Features
 
-# Send Multiple Messages at Once
-Alternatively, the user can spam someone's phone by sending individual messages that make up every line of a larger text. 
+### Daily Automated Messages
+- **Pre-set Intervals**: Configure the tool to send messages at specific times or intervals.
+- **Dynamic Message Selection**: By default, the tool selects the top line from the `text_to_send.txt` file and sends it as a message. After sending, this line is removed, making it suitable for sending a new joke or message every day.
+- **Static Message Option**: The tool can also be customized to send the same text every day without altering the `text_to_send.txt` file.
 
-For example, every line of your favorite movie can be sent to a friend, and the program will send every line back to back rapidly. This can result in thousands of messages being sent in a very short period of time.
+### Mass Messaging
+- **Rapid Message Sending**: Send multiple messages back-to-back in quick succession.
+- **Use Cases**: Ideal for sending every line of a song, movie, or any long text. Be cautious as this can send thousands of messages in a short span.
+
+## Setup & Usage
+
+### Preparation
+1. Populate the `text_to_send.txt` file with the desired messages. Each line in the file will be treated as a separate message.
+
+### Daily Automated Messages
+1. Set up a crontab job (or similar scheduler) to execute `messenger.py` at your desired time.
+2. If you want to send a different message each day, ensure that after each message is sent, the respective line in `text_to_send.txt` is deleted.
+
+### Mass Messaging
+1. Run `messenger.py`. Ensure that the `text_to_send.txt` file contains the lines of text you wish to send.
+2. The program will rapidly send each sentence as a separate message.
