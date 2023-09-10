@@ -6,7 +6,7 @@ with open('PhoneNumber.txt', 'r') as p:
     phone_number = p.read()
 
     
-with open('Text_to_send.txt', 'r') as t:
+with open('text_to_send.txt', 'r') as t:
     text = t.read()
     
 def send_messages(num, message):
